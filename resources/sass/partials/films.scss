@@ -1,0 +1,8 @@
+.films-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+    .films-description{
+        width: calc(100% / 5);
+    }
+}

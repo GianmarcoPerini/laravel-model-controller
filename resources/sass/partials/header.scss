@@ -1,0 +1,14 @@
+header{
+    .header-box{
+        display: flex;
+        p a{
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+    .active{
+        background-color: red;
+    }
+}

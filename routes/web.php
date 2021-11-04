@@ -13,4 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index')->name('land');
+Route::get('/', function () {
+    return view('land');
+})->name('land');
+
+
+Route::get('/films', 'HomeController@index')->name('films');

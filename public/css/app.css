@@ -1,0 +1,23 @@
+header .header-box {
+  display: flex;
+}
+
+header .header-box p a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+header .active {
+  background-color: red;
+}
+
+.films-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.films-wrapper .films-description {
+  width: 20%;
+}
+
